@@ -1,0 +1,29 @@
+# dependencies
+node_modules/
+
+# build outputs
+dist/
+build/
+.next/
+out/
+
+# env
+.env
+.env.*
+!.env.example
+.local/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+
+# app-specific
+server/public
+
+# configs / archives
+vite.config.ts.*
+*.tar.gz
+
+# exclude replit + pasted assets
+.replit
+attached_assets/
